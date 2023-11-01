@@ -26,10 +26,22 @@ GitHub Copilot was used in the development of this project to accelerate code wr
 
 ## Outputs
 
-	•	Create Operation: 6 points
-	•	Read Operation: 6 points
-	•	Update Operation: 6 points
-	•	Delete Operation: 7 points
+Create Operation: 
+<img width="610" alt="Screenshot 2023-10-31 at 23 10 29" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/b56bdf13-78b7-4e09-9bd2-0af7f4466161">
+
+Read Operation:
+<img width="665" alt="Screenshot 2023-10-31 at 23 11 01" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/af8c558f-72c6-445a-b8f1-5ab6962320f0">
+
+Insert and Delete Operation: 
+<img width="924" alt="Screenshot 2023-10-31 at 23 12 26" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/8819f734-4f20-4208-9340-3b1bd5f8c63e">
+
+<img width="798" alt="Screenshot 2023-10-31 at 23 12 55" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/c16c2348-1a5a-447d-b212-df99bc46491f">
+
+Update Operation: 
+<img width="898" alt="Screenshot 2023-10-31 at 23 13 39" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/4ad59822-0dcd-4db8-952f-d4402ceff4fb">
+
+<img width="401" alt="Screenshot 2023-10-31 at 23 13 48" src="https://github.com/nogibjj/individule-proj2-rc/assets/123079408/5d9e7664-5acf-428b-8071-b386f358801b">
+
 
 
 
