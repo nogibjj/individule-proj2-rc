@@ -58,7 +58,7 @@ GitHub Copilot was used in the development of this project to accelerate code wr
 
 This project uses GitHub Actions to automate the testing, building, and linting of the Rust code. The GitHub Actions workflow ensures that the code is of high quality and can be easily maintained.
 
-## Demo Video
 
-For a detailed explanation and demonstration of this project's functionality, please watch the demo video linked below:
-[Demo Video] ()
+
+
+
