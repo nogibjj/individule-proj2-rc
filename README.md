@@ -1,25 +1,34 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+#rc381-Project 2: Rust CLI Binary with SQLite
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+This is a Rust command-line interface (CLI) application that interacts with an SQLite database. It provides functionality for loading data from a CSV file into the database and querying the database using SQL queries.
 
-Things included are:
+## Getting Started
 
-* `Makefile`
+### Prerequisites
 
-* `Pytest`
+Before using this application, make sure you have the following prerequisites installed on your system:
+- [Rust](https://www.rust-lang.org/tools/install)
+- [SQLite](https://www.sqlite.org/index.html)
 
-* `pandas`
+### Installation
 
-* `Pylint`
+1. Clone the repository to your local machine:
+   ```shell
+   git clone https://github.com/nogibjj/individule-proj2-rc.git
+   cd proj2
+   ```
 
-* `Dockerfile`
+2. Build the Rust binary using GitHub Actions:
+   - The GitHub Actions workflow will automatically build and optimize the Rust binary. You can download it as an artifact once the workflow is complete.
 
-* `GitHub copilot`
+## Outputs
 
-* `jupyter` and `ipython` 
 
-* A base set of libraries for devops and web
+## GitHub Actions
 
-* `githubactions` 
+This project uses GitHub Actions to automate the testing, building, and linting of the Rust code. The GitHub Actions workflow ensures that the code is of high quality and can be easily maintained.
 
+## Demo Video
+
+For a detailed explanation and demonstration of this project's functionality, please watch the demo video linked below:
+[Demo Video]()

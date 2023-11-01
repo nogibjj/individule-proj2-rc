@@ -1,0 +1,43 @@
+name: Rust CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: Build, Test, and Lint
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        profile: minimal
+        components: clippy, rustfmt
+        override: true
+
+    - name: Lint with Clippy
+      run: cargo clippy -- -D warnings
+
+    - name: Format check
+      run: cargo fmt -- --check
+
+    - name: Run Tests
+      run: cargo test
+
+    - name: Build Release Binary
+      run: cargo build --release
+
+    - name: Upload Release Binary as Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: binary-artifact
+        path: target/release/ids706_individual_project2
