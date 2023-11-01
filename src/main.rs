@@ -22,7 +22,16 @@ fn main() {
             } else {
                 println!("Usage: {} query [SQL query]", args[0]);
             }
-        },
+        }
+        
+        _ => {
+            println!("Invalid action.");
+        }
+
+    }
+}
+
+
 
         // "dataload" => match convert_csv_to_sql("data.csv") {
         //     Ok(_) => println!("Data is successfully loaded!"),
@@ -39,9 +48,3 @@ fn main() {
         //         println!("Usage: {} query [SQL query]", args[0]);
         //     }
         // }
-        _ => {
-            println!("Invalid action.");
-        }
-
-    }
-}
