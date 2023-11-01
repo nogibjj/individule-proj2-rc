@@ -26,7 +26,7 @@ pub fn convert_csv_to_sql(dataset: &str) -> Result<String> {
     for result in rdr.records() {
         match result {
             Ok(record) => {
-                st.execute(&[&record[1], &record[2]])?;
+                st.execute([&record[1], &record[2]])?;
             }
             Err(err) => {
                 eprintln!("Error reading CSV: {:?}", err);
@@ -70,7 +70,8 @@ pub fn query_crud(query: &str) -> Result<()> {
         }
     } else {
         // other CUD operations
-        let _num_affected_rows = conn.execute_batch(query)?;
+        //let _num_affected_rows = conn.execute_batch(query)?;
+        conn.execute_batch(query)?;
     }
     Ok(())
 }
