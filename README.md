@@ -21,7 +21,16 @@ Before using this application, make sure you have the following prerequisites in
 2. Build the Rust binary using GitHub Actions:
    - The GitHub Actions workflow will automatically build and optimize the Rust binary. You can download it as an artifact once the workflow is complete.
 
+## Use of GitHub Copilot
+GitHub Copilot was used in the development of this project to accelerate code writing. It helped generate code snippets and provided suggestions during development, making the coding process more efficient and error-resistant.
+
 ## Outputs
+
+	•	Create Operation: 6 points
+	•	Read Operation: 6 points
+	•	Update Operation: 6 points
+	•	Delete Operation: 7 points
+
 
 
 ## GitHub Actions
