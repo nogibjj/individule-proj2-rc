@@ -47,24 +47,15 @@ pub fn query_crud(query: &str) -> Result<()> {
         let results = stmt.query_map(params![], |row| {
             Ok((
                 row.get::<usize, i64>(0)?, // Assuming an "id" column of type INTEGER
-                row.get::<usize, String>(1)?, 
-                row.get::<usize, f64>(2)?, 
+                row.get::<usize, String>(1)?,
+                row.get::<usize, f64>(2)?,
             ))
         })?;
 
         for result in results {
             match result {
-                Ok((
-                    id,
-                    name,
-                    grade,
-                )) => {
-                    println!(
-                        "Result: id={}, name={}, grade={}",
-                        id,
-                        name,
-                        grade,
-                    );
+                Ok((id, name, grade)) => {
+                    println!("Result: id={}, name={}, grade={}", id, name, grade,);
                 }
                 Err(e) => eprintln!("Error in row: {:?}", e),
             }
