@@ -61,4 +61,4 @@ This project uses GitHub Actions to automate the testing, building, and linting 
 ## Demo Video
 
 For a detailed explanation and demonstration of this project's functionality, please watch the demo video linked below:
-[Demo Video]()
+[Demo Video] ()
