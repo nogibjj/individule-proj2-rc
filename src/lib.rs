@@ -1,4 +1,5 @@
 use rusqlite::{Connection, Result, params};
+
 use csv::Reader;
 
 pub fn convert_csv_to_sql(dataset: &str) -> Result<String> {
