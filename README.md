@@ -1,4 +1,4 @@
-#rc381-Project 2: Rust CLI Binary with SQLite
+# rc381-Project 2: Rust CLI Binary with SQLite
 
 This is a Rust command-line interface (CLI) application that interacts with an SQLite database. It provides functionality for loading data from a CSV file into the database and querying the database using SQL queries.
 
